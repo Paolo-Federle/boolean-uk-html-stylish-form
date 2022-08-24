@@ -13,13 +13,14 @@
 <body>
   <div class="main">
     <h1>Say Hello!</h1>
-    <form>
+    <form action="other_index.html">
       <div>
         <label>
           <p>
             Your name
           </p>
-          <input type="text" required placeholder="Enter your name" />
+          <input type="text" required placeholder="Enter your name" action="./other_index.html"
+          oninvalid="this.setCustomValidity('Pick another name')"/>
         </label>
       </div>
       <div>
@@ -27,7 +28,7 @@
           <p>
             Email
           </p>
-          <input type="email" required placeholder="Enter your email address" />
+          <input type="email" required placeholder="Enter your email address"/>
         </label>
       </div>
       <div>
@@ -47,7 +48,7 @@
         </label>
       </div>
       <div>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit"/>
     </form>
   </div>
   </div>

@@ -6,7 +6,7 @@
 }
 
 html {
-    height: 100%;
+    min-height: 100%;
     background: rgb(89, 177, 223);
     background: linear-gradient(32deg, rgba(89, 177, 223, 1) 0%, rgba(201, 62, 242, 1) 100%);
 
@@ -62,4 +62,8 @@ input[type=submit] {
 input[type=submit]:hover {
     transition: 0.2s ease-in;
     filter: brightness(90%);
+}
+
+.fv-help-block {
+    color: #d935dc;
 }
