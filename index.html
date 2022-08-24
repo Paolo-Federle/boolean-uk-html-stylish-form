@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Full Stack Portfolio</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Full Stack Portfolio</title>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Say Hello!</h1>
+    <form>
+      <div>
+        <label>
+          <p>
+            Your name
+          </p>
+          <input type="text" required placeholder="Enter your name" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <p>
+            Email
+          </p>
+          <input type="email" required placeholder="Enter your email address" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <p>Needed Services</p>
+          <select name="Choose Services">
+            <option value="void">Choose Services</option>
+            <option value="opt-one">Option 1</option>
+            <option value="opt-two">Option 2</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label>
+          <p>Message</p>
+          <textarea placeholder="Your message here..."></textarea>
+        </label>
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+    </form>
+  </div>
+  </div>
+</body>
+
 </html>
